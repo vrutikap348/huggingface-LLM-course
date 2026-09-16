@@ -1,32 +1,90 @@
-# Hugging Face LLM Course – Notes
+# Hugging Face LLM Course – Internship Task
 
-Personal study notes from the [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) (formerly the Hugging Face NLP Course) — a free, 13-part curriculum (Chapter 0 through Chapter 12) covering the Transformers ecosystem end to end: tokenization, model architecture, fine-tuning, dataset curation, and reasoning-model training with reinforcement learning.
+## Overview
 
-Code snippets in these notes are simplified/paraphrased for clarity and are not verbatim excerpts from the course material.
+This repository contains my personal learning notes, practical understanding, and key takeaways from the Hugging Face LLM Course.
 
-## Contents
+The course covers Transformer-based models, tokenization, datasets, NLP tasks, fine-tuning, Large Language Models (LLMs), and reasoning models.
 
-| # | Chapter | Topic |
-|---|---------|-------|
-| 0 | [Setup](chapter-00-setup.md) | Environment setup, Hub account |
-| 1 | [Transformer Models](chapter-01-transformer-models.md) | `pipeline()`, architectures, bias & limitations |
-| 2 | [Using Transformers](chapter-02-using-transformers.md) | Tokenizer → model → post-processing |
-| 3 | [Fine-tuning a Pretrained Model](chapter-03-fine-tuning.md) | Trainer API, manual training loop |
-| 4 | [Sharing Models and Tokenizers](chapter-04-sharing-models.md) | Hugging Face Hub, model cards |
-| 5 | [The Datasets Library](chapter-05-datasets-library.md) | Loading, streaming, FAISS semantic search |
-| 6 | [The Tokenizers Library](chapter-06-tokenizers-library.md) | BPE, WordPiece, Unigram, training a tokenizer |
-| 7 | [Classical NLP Tasks](chapter-07-classical-nlp-tasks.md) | NER, MLM, translation, summarization, QA |
-| 8 | [How to Ask for Help](chapter-08-how-to-ask-for-help.md) | Debugging, forums, GitHub issues |
-| 9 | [Building and Sharing Demos](chapter-09-building-demos.md) | Gradio, Hugging Face Spaces |
-| 10 | [Curate High-Quality Datasets](chapter-10-curate-datasets.md) | Argilla, data quality practices |
-| 11 | [Fine-tune Large Language Models](chapter-11-fine-tune-llms.md) | Chat templates, SFT, LoRA/PEFT |
-| 12 | [Build Reasoning Models](chapter-12-reasoning-models.md) | RLHF, DPO, GRPO, TRL |
+## Internship Task
 
-See [`takeaways.md`](takeaways.md) for an overall summary and references.
+This repository is prepared as part of my internship learning/task submission to demonstrate my understanding of Large Language Models (LLMs) and the Hugging Face ecosystem.
 
-## Source
+## Course
 
-- Course: https://huggingface.co/learn/llm-course
-- Transformers docs: https://huggingface.co/docs/transformers
-- TRL docs: https://huggingface.co/docs/trl
-- PEFT docs: https://huggingface.co/docs/peft
+**Hugging Face LLM Course**
+
+Official Course:  
+https://huggingface.co/learn/llm-course
+
+## Topics Covered
+
+- Chapter 0 – Setup
+- Chapter 1 – Transformer Models
+- Chapter 2 – Using Transformers
+- Chapter 3 – Fine-Tuning a Pretrained Model
+- Chapter 4 – Sharing Models and Tokenizers
+- Chapter 5 – The Datasets Library
+- Chapter 6 – The Tokenizers Library
+- Chapter 7 – Classical NLP Tasks
+- Chapter 8 – How to Ask for Help
+- Chapter 9 – Building and Sharing Demos
+- Chapter 10 – Curate High-Quality Datasets
+- Chapter 11 – Fine-Tune Large Language Models
+- Chapter 12 – Build Reasoning Models
+
+## Technologies and Tools
+
+- Python
+- Hugging Face Transformers
+- Hugging Face Datasets
+- Hugging Face Tokenizers
+- PyTorch
+- TRL
+- PEFT
+- Gradio
+- Hugging Face Hub
+- Jupyter Notebook
+- VS Code
+
+## Key Learning Outcomes
+
+- Understanding Transformer models
+- Understanding tokenization
+- Using pretrained models with Hugging Face Transformers
+- Performing common NLP tasks
+- Loading and processing datasets
+- Creating and training tokenizers
+- Fine-tuning pretrained models
+- Sharing models and tokenizers using Hugging Face Hub
+- Building and sharing ML demos
+- Understanding Large Language Models
+- Understanding Parameter-Efficient Fine-Tuning (PEFT)
+- Understanding LoRA and Supervised Fine-Tuning (SFT)
+- Understanding RLHF, DPO, and GRPO
+- Understanding reasoning-model training
+
+## Personal Takeaways
+
+The `takeaways.md` file contains my overall learning summary, important concepts, and references collected while studying the course.
+
+## Source and References
+
+- Hugging Face LLM Course: https://huggingface.co/learn/llm-course
+- Transformers Documentation: https://huggingface.co/docs/transformers
+- TRL Documentation: https://huggingface.co/docs/trl
+- PEFT Documentation: https://huggingface.co/docs/peft
+
+## Note
+
+This repository contains my personal study notes and learning material based on the Hugging Face LLM Course.
+
+The explanations and code snippets in these notes are simplified or paraphrased for learning and clarity. They are not intended to reproduce the official course material verbatim.
+
+The official Hugging Face course remains the primary source for the course content and documentation.
+
+## Internship Submission
+
+**Purpose:** Internship Learning / LLM Course Task
+
+**Focus:** Large Language Models, Transformers, NLP, Fine-Tuning, Datasets, Tokenization, and Reasoning Models.
